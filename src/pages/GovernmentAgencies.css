@@ -1,0 +1,62 @@
+.gov-agencies-container {
+  padding: 2rem 2rem 2rem 300px; /* leave space for sidebar */
+  background: #f7f8fa;
+  min-height: 100vh;
+}
+
+.gov-agencies-container h1 {
+  color: #4CAF50;
+  margin-bottom: 2rem;
+}
+
+.gov-agencies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.gov-agency-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(26,35,126,0.08);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s;
+}
+
+.gov-agency-card:hover {
+  box-shadow: 0 4px 16px rgba(26,35,126,0.15);
+}
+
+.gov-agency-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.gov-agency-card h2 {
+  font-size: 1.2rem;
+  color: #3949ab;
+  margin: 0 0 0.5rem 0;
+}
+
+.gov-agency-card p {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.gov-agency-link {
+  color: #4CAF50;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+@media (max-width: 900px) {
+  .gov-agencies-container {
+    padding: 1rem 1rem 1rem 0;
+  }
+} 

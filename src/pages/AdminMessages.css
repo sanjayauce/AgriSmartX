@@ -1,0 +1,58 @@
+.admin-messages {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.admin-messages-paper {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-messages h1 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.admin-messages-form {
+  margin-top: 2rem;
+}
+
+.admin-messages-actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.admin-messages .MuiFormControl-root {
+  margin-bottom: 1.5rem;
+}
+
+.admin-messages .MuiChip-root {
+  margin: 2px;
+}
+
+.admin-messages .MuiTextField-root textarea {
+  min-height: 120px;
+}
+
+@media (max-width: 600px) {
+  .admin-messages {
+    padding: 1rem;
+  }
+
+  .admin-messages-paper {
+    padding: 1.5rem;
+  }
+
+  .admin-messages-actions {
+    flex-direction: column;
+  }
+
+  .admin-messages-actions button {
+    width: 100%;
+  }
+} 
