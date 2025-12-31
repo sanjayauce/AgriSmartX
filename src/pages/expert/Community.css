@@ -1,0 +1,62 @@
+/* Community.css */
+
+.expert-community-dashboard {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.expert-community-header {
+  margin-bottom: 20px;
+}
+
+.expert-community-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.expert-community-welcome-message {
+  font-size: 16px;
+  color: #666;
+}
+
+.expert-community-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.expert-community-activity {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.expert-community-activity h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.expert-community-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expert-community-activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.expert-community-activity-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.expert-community-activity-details small {
+  font-size: 12px;
+  color: #666;
+} 

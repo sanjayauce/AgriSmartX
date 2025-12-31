@@ -1,0 +1,71 @@
+.gov-agencies-settings-dashboard {
+  background-color: #f8fafc;
+  min-height: 100vh;
+  padding: 32px 0;
+}
+
+.gov-agencies-settings-header {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.gov-agencies-settings-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.gov-agencies-settings-welcome-message {
+  color: #64748b;
+  margin: 8px 0 0;
+}
+
+.gov-agencies-settings-sections {
+  display: flex;
+  gap: 24px;
+}
+
+.gov-agencies-settings-content {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+
+.gov-agencies-settings-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 16px;
+}
+
+.gov-agencies-settings-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gov-agencies-settings-activity-item {
+  background-color: #f8fafc;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.gov-agencies-settings-activity-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gov-agencies-settings-activity-details p {
+  margin: 0;
+  color: #1e293b;
+}
+
+.gov-agencies-settings-activity-details small {
+  color: #64748b;
+} 

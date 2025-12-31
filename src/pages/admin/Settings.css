@@ -1,0 +1,657 @@
+/* Settings.css */
+
+.settings-dashboard {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.settings-header {
+  margin-bottom: 20px;
+}
+
+.settings-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.settings-welcome-message {
+  font-size: 16px;
+  color: #666;
+}
+
+.settings-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings-activity {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.settings-activity h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.settings-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.settings-activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.settings-activity-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.settings-activity-details small {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Settings Management Page Styles */
+
+.settings-management {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.settings-paper {
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.settings-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.settings-header h1 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.controls-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  position: relative;
+}
+
+.controls-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #007bff, #28a745, #ffc107, #dc3545);
+  border-radius: 8px 8px 0 0;
+}
+
+/* Card styles */
+.MuiCard-root {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  height: 100%;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.MuiCardContent-root {
+  padding: 1.5rem;
+  height: 100%;
+}
+
+/* Switch styles */
+.MuiSwitch-root {
+  margin: 8px 0;
+}
+
+.MuiSwitch-track {
+  border-radius: 22px;
+  background-color: #e0e0e0;
+}
+
+.MuiSwitch-thumb {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.MuiSwitch-colorPrimary .MuiSwitch-track {
+  background-color: rgba(0, 123, 255, 0.5);
+}
+
+.MuiSwitch-colorPrimary .MuiSwitch-thumb {
+  background-color: #007bff;
+}
+
+.MuiSwitch-colorSecondary .MuiSwitch-track {
+  background-color: rgba(108, 117, 125, 0.5);
+}
+
+.MuiSwitch-colorSecondary .MuiSwitch-thumb {
+  background-color: #6c757d;
+}
+
+.MuiSwitch-colorSuccess .MuiSwitch-track {
+  background-color: rgba(40, 167, 69, 0.5);
+}
+
+.MuiSwitch-colorSuccess .MuiSwitch-thumb {
+  background-color: #28a745;
+}
+
+.MuiSwitch-colorWarning .MuiSwitch-track {
+  background-color: rgba(255, 193, 7, 0.5);
+}
+
+.MuiSwitch-colorWarning .MuiSwitch-thumb {
+  background-color: #ffc107;
+}
+
+.MuiSwitch-colorError .MuiSwitch-track {
+  background-color: rgba(220, 53, 69, 0.5);
+}
+
+.MuiSwitch-colorError .MuiSwitch-thumb {
+  background-color: #dc3545;
+}
+
+.MuiSwitch-colorInfo .MuiSwitch-track {
+  background-color: rgba(23, 162, 184, 0.5);
+}
+
+.MuiSwitch-colorInfo .MuiSwitch-thumb {
+  background-color: #17a2b8;
+}
+
+/* Form control styles */
+.MuiTextField-root,
+.MuiFormControl-root {
+  margin-bottom: 1rem;
+}
+
+.MuiTextField-root .MuiInputLabel-root,
+.MuiFormControl-root .MuiInputLabel-root {
+  color: #6c757d;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root,
+.MuiFormControl-root .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiFormControl-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #007bff;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.MuiFormControl-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #007bff;
+  border-width: 2px;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #dc3545;
+}
+
+/* Button styles */
+.MuiButton-root {
+  border-radius: 8px;
+  text-transform: none;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.MuiButton-outlined {
+  border-width: 2px;
+}
+
+.MuiButton-outlined:hover {
+  border-width: 2px;
+  transform: translateY(-1px);
+}
+
+.MuiButton-contained {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.MuiButton-contained:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.MuiButton-contained.MuiButton-colorPrimary {
+  background: linear-gradient(45deg, #007bff, #0056b3);
+}
+
+.MuiButton-contained.MuiButton-colorPrimary:hover {
+  background: linear-gradient(45deg, #0056b3, #004085);
+}
+
+/* Divider styles */
+.MuiDivider-root {
+  margin: 1rem 0;
+  background-color: #e9ecef;
+}
+
+/* Chip styles */
+.MuiChip-root {
+  border-radius: 16px;
+  font-weight: 500;
+}
+
+.MuiChip-colorSuccess {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.MuiChip-colorError {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.MuiChip-colorWarning {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.MuiChip-colorInfo {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+/* System status section */
+.system-status-section {
+  margin-top: 2rem;
+}
+
+.system-status-item {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: #f8f9fa;
+  transition: all 0.2s ease-in-out;
+}
+
+.system-status-item:hover {
+  background: #e9ecef;
+  transform: translateY(-2px);
+}
+
+.system-status-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.system-status-title {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 0.5rem;
+}
+
+/* Snackbar styles */
+.MuiSnackbar-root {
+  z-index: 1400;
+}
+
+.MuiAlert-root {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Loading states */
+.MuiCircularProgress-root {
+  color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .settings-management {
+    padding: 1rem;
+  }
+  
+  .settings-paper {
+    padding: 1.5rem;
+  }
+  
+  .MuiCardContent-root {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .settings-management {
+    padding: 0.5rem;
+  }
+  
+  .settings-paper {
+    padding: 1rem;
+  }
+  
+  .settings-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .controls-section {
+    padding: 1rem;
+  }
+  
+  .MuiCardContent-root {
+    padding: 0.75rem;
+  }
+  
+  .system-status-item {
+    padding: 1rem;
+  }
+  
+  .system-status-icon {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .settings-management {
+    padding: 0.25rem;
+  }
+  
+  .settings-paper {
+    padding: 0.75rem;
+  }
+  
+  .MuiCardContent-root {
+    padding: 0.5rem;
+  }
+  
+  .system-status-item {
+    padding: 0.75rem;
+  }
+  
+  .system-status-icon {
+    font-size: 1.5rem;
+  }
+}
+
+/* Animation for cards */
+.MuiCard-root {
+  animation: slideInUp 0.5s ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Card hover effects */
+.MuiCard-root {
+  position: relative;
+  overflow: hidden;
+}
+
+.MuiCard-root::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.MuiCard-root:hover::before {
+  left: 100%;
+}
+
+/* Save button special styling */
+.save-button {
+  background: linear-gradient(45deg, #28a745, #20c997);
+  color: white;
+  border: none;
+}
+
+.save-button:hover {
+  background: linear-gradient(45deg, #218838, #1ea085);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+/* Form validation styles */
+.form-error {
+  color: #dc3545;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.form-helper-text {
+  color: #6c757d;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+/* Input adornment styles */
+.MuiInputAdornment-root {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+/* Switch label styles */
+.MuiFormControlLabel-root {
+  margin: 8px 0;
+  align-items: flex-start;
+}
+
+.MuiFormControlLabel-label {
+  font-weight: 500;
+  color: #495057;
+  line-height: 1.4;
+}
+
+/* Section header styles */
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.section-header .MuiSvgIcon-root {
+  margin-right: 0.75rem;
+  font-size: 1.5rem;
+}
+
+.section-header .MuiTypography-root {
+  font-weight: 600;
+  color: #495057;
+}
+
+/* Status indicator animations */
+.status-indicator {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Loading overlay */
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* Error state */
+.error-state {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+.error-state .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: #dc3545;
+  margin-bottom: 1rem;
+}
+
+/* Success state */
+.success-state {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+.success-state .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: #28a745;
+  margin-bottom: 1rem;
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group-title {
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Switch group styles */
+.switch-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.switch-group .MuiFormControlLabel-root {
+  margin: 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.switch-group .MuiFormControlLabel-root:hover {
+  background-color: #f8f9fa;
+}
+
+/* Number input styles */
+.MuiTextField-root input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.MuiTextField-root input[type="number"]::-webkit-outer-spin-button,
+.MuiTextField-root input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Select styles */
+.MuiSelect-select {
+  padding: 0.75rem 1rem;
+}
+
+.MuiSelect-select:focus {
+  background-color: transparent;
+}
+
+/* Icon styles */
+.section-icon {
+  font-size: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+.section-icon.primary {
+  color: #007bff;
+}
+
+.section-icon.error {
+  color: #dc3545;
+}
+
+.section-icon.info {
+  color: #17a2b8;
+}
+
+.section-icon.success {
+  color: #28a745;
+}
+
+.section-icon.warning {
+  color: #ffc107;
+}
+
+/* Grid responsive adjustments */
+@media (max-width: 768px) {
+  .MuiGrid-item {
+    margin-bottom: 1rem;
+  }
+  
+  .MuiGrid-container {
+    gap: 1rem;
+  }
+}
+
+/* Focus styles for accessibility */
+.MuiSwitch-root:focus-within .MuiSwitch-thumb {
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:focus-within {
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+.MuiFormControl-root .MuiOutlinedInput-root:focus-within {
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+} 

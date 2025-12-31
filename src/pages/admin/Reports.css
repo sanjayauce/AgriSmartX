@@ -1,0 +1,613 @@
+/* Reports.css */
+
+.reports-dashboard {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.reports-header {
+  margin-bottom: 20px;
+}
+
+.reports-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.reports-welcome-message {
+  font-size: 16px;
+  color: #666;
+}
+
+.reports-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reports-activity {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reports-activity h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.reports-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reports-activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reports-activity-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.reports-activity-details small {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Reports Management Page Styles */
+
+.reports-management {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.reports-paper {
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reports-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.reports-header h1 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.controls-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.metrics-grid {
+  margin-bottom: 2rem;
+}
+
+.metrics-grid .MuiCard-root {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  height: 100%;
+}
+
+.metrics-grid .MuiCard-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.metrics-grid .MuiCardContent-root {
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.charts-section {
+  margin-bottom: 2rem;
+}
+
+.charts-section .MuiCard-root {
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.charts-section .MuiCardContent-root {
+  padding: 1.5rem;
+  height: 100%;
+}
+
+/* Chart container styles */
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #e0e0e0;
+  stroke-dasharray: 3 3;
+}
+
+.recharts-tooltip-wrapper {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.MuiButton-root {
+  border-radius: 8px;
+  text-transform: none;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.MuiButton-outlined {
+  border-width: 2px;
+}
+
+.MuiButton-outlined:hover {
+  border-width: 2px;
+  transform: translateY(-1px);
+}
+
+.MuiButton-contained {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.MuiButton-contained:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Form controls */
+.MuiTextField-root,
+.MuiFormControl-root {
+  margin-bottom: 1rem;
+}
+
+.MuiTextField-root .MuiInputLabel-root,
+.MuiFormControl-root .MuiInputLabel-root {
+  color: #6c757d;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root,
+.MuiFormControl-root .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiFormControl-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #007bff;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.MuiFormControl-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #007bff;
+  border-width: 2px;
+}
+
+/* Progress bar styles */
+.MuiLinearProgress-root {
+  height: 8px;
+  border-radius: 4px;
+}
+
+.MuiLinearProgress-colorPrimary {
+  background-color: #e3f2fd;
+}
+
+.MuiLinearProgress-colorSecondary {
+  background-color: #f3e5f5;
+}
+
+.MuiLinearProgress-colorSuccess {
+  background-color: #e8f5e8;
+}
+
+.MuiLinearProgress-colorWarning {
+  background-color: #fff3e0;
+}
+
+.MuiLinearProgress-colorError {
+  background-color: #ffebee;
+}
+
+/* List styles */
+.MuiList-root {
+  padding: 0;
+}
+
+.MuiListItem-root {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.MuiListItem-root:last-child {
+  border-bottom: none;
+}
+
+.MuiListItemIcon-root {
+  min-width: 40px;
+  color: #6c757d;
+}
+
+/* Snackbar styles */
+.MuiSnackbar-root {
+  z-index: 1400;
+}
+
+.MuiAlert-root {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Loading states */
+.MuiCircularProgress-root {
+  color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .reports-management {
+    padding: 1rem;
+  }
+  
+  .reports-paper {
+    padding: 1.5rem;
+  }
+  
+  .charts-section .MuiGrid-item {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .reports-management {
+    padding: 0.5rem;
+  }
+  
+  .reports-paper {
+    padding: 1rem;
+  }
+  
+  .reports-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .controls-section .MuiGrid-container {
+    gap: 1rem;
+  }
+  
+  .controls-section .MuiGrid-item {
+    width: 100%;
+  }
+  
+  .charts-section .MuiCardContent-root {
+    padding: 1rem;
+  }
+  
+  .metrics-grid .MuiCardContent-root {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .reports-management {
+    padding: 0.25rem;
+  }
+  
+  .reports-paper {
+    padding: 0.75rem;
+  }
+  
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .charts-section {
+    display: none;
+  }
+}
+
+/* Animation for cards */
+.metrics-grid .MuiCard-root {
+  animation: slideInUp 0.5s ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Chart animations */
+.recharts-line-curve {
+  animation: drawLine 1s ease-out;
+}
+
+.recharts-bar-rectangle {
+  animation: growBar 0.8s ease-out;
+}
+
+@keyframes drawLine {
+  from {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes growBar {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+/* Card hover effects */
+.metrics-grid .MuiCard-root {
+  position: relative;
+  overflow: hidden;
+}
+
+.metrics-grid .MuiCard-root::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.metrics-grid .MuiCard-root:hover::before {
+  left: 100%;
+}
+
+/* Export button special styling */
+.export-button {
+  background: linear-gradient(45deg, #28a745, #20c997);
+  color: white;
+  border: none;
+}
+
+.export-button:hover {
+  background: linear-gradient(45deg, #218838, #1ea085);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+/* Controls section enhancements */
+.controls-section {
+  position: relative;
+}
+
+.controls-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #007bff, #28a745, #ffc107, #dc3545);
+  border-radius: 8px 8px 0 0;
+}
+
+/* Chart tooltips */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  padding: 12px !important;
+}
+
+.recharts-tooltip-wrapper .recharts-tooltip-label {
+  color: #495057 !important;
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+}
+
+.recharts-tooltip-wrapper .recharts-tooltip-item {
+  color: #6c757d !important;
+  font-size: 0.875rem !important;
+}
+
+/* Metric card icons */
+.metrics-grid .MuiSvgIcon-root {
+  font-size: 2rem;
+}
+
+/* Trend indicators */
+.trend-up {
+  color: #28a745;
+  animation: pulse 2s infinite;
+}
+
+.trend-down {
+  color: #dc3545;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Memory usage progress bars */
+.memory-progress {
+  margin: 1rem 0;
+}
+
+.memory-progress .MuiLinearProgress-root {
+  height: 12px;
+  border-radius: 6px;
+}
+
+.memory-progress .MuiLinearProgress-bar {
+  border-radius: 6px;
+}
+
+/* System information list */
+.system-info-list .MuiListItem-root {
+  padding: 1rem 0;
+}
+
+.system-info-list .MuiListItemIcon-root {
+  color: #007bff;
+}
+
+.system-info-list .MuiListItemText-primary {
+  font-weight: 600;
+  color: #495057;
+}
+
+.system-info-list .MuiListItemText-secondary {
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+/* Auto-refresh indicator */
+.auto-refresh-indicator {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: rgba(0, 123, 255, 0.9);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  animation: pulse 2s infinite;
+}
+
+/* Chart legends */
+.recharts-legend-wrapper {
+  padding: 10px;
+}
+
+.recharts-legend-item {
+  margin: 5px 10px;
+}
+
+.recharts-legend-item-text {
+  font-size: 0.875rem;
+  color: #495057;
+}
+
+/* Area chart specific styles */
+.recharts-area-curve {
+  fill-opacity: 0.3;
+}
+
+.recharts-area-curve:hover {
+  fill-opacity: 0.5;
+}
+
+/* Bar chart specific styles */
+.recharts-bar-rectangle:hover {
+  opacity: 0.8;
+}
+
+/* Pie chart specific styles */
+.recharts-pie-sector:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* Responsive chart containers */
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-container {
+    height: 200px;
+  }
+}
+
+/* Loading overlay */
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* Error state */
+.error-state {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+.error-state .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: #dc3545;
+  margin-bottom: 1rem;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: #6c757d;
+}
+
+.empty-state .MuiSvgIcon-root {
+  font-size: 3rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+} 

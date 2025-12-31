@@ -1,0 +1,435 @@
+/* Users.css */
+
+.users-dashboard {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.users-header {
+  margin-bottom: 20px;
+}
+
+.users-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.users-welcome-message {
+  font-size: 16px;
+  color: #666;
+}
+
+.users-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.users-activity {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.users-activity h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.users-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.users-activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.users-activity-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.users-activity-details small {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Users Management Page Styles */
+
+.users-management {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.users-paper {
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.users-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.users-header h1 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.stats-grid {
+  margin-bottom: 2rem;
+}
+
+.stats-grid .MuiCard-root {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.stats-grid .MuiCard-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.stats-grid .MuiCardContent-root {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.filters-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.users-table {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.users-table .MuiTableHead-root {
+  background: #f8f9fa;
+}
+
+.users-table .MuiTableHead-root .MuiTableCell-root {
+  font-weight: 600;
+  color: #495057;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.users-table .MuiTableBody-root .MuiTableRow-root:hover {
+  background: #f8f9fa;
+}
+
+.users-table .MuiTableCell-root {
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.users-table .MuiChip-root {
+  font-weight: 500;
+}
+
+/* Role-specific colors */
+.users-table .MuiChip-colorPrimary {
+  background: #007bff;
+}
+
+.users-table .MuiChip-colorSecondary {
+  background: #6c757d;
+}
+
+.users-table .MuiChip-colorSuccess {
+  background: #28a745;
+}
+
+.users-table .MuiChip-colorInfo {
+  background: #17a2b8;
+}
+
+.users-table .MuiChip-colorWarning {
+  background: #ffc107;
+  color: #212529;
+}
+
+.users-table .MuiChip-colorError {
+  background: #dc3545;
+}
+
+.users-table .MuiChip-colorDefault {
+  background: #6c757d;
+}
+
+/* Action buttons */
+.users-table .MuiIconButton-root {
+  margin: 0 0.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.users-table .MuiIconButton-root:hover {
+  transform: scale(1.1);
+}
+
+.users-table .MuiIconButton-colorError:hover {
+  background: rgba(220, 53, 69, 0.1);
+}
+
+/* Pagination */
+.MuiTablePagination-root {
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Dialog styles */
+.MuiDialog-paper {
+  border-radius: 12px;
+}
+
+.MuiDialogTitle-root {
+  background: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  font-weight: 600;
+}
+
+.MuiDialogContent-root {
+  padding: 1.5rem;
+}
+
+.MuiDialogActions-root {
+  padding: 1rem 1.5rem;
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Form controls */
+.MuiTextField-root,
+.MuiFormControl-root {
+  margin-bottom: 1rem;
+}
+
+.MuiTextField-root .MuiInputLabel-root,
+.MuiFormControl-root .MuiInputLabel-root {
+  color: #6c757d;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root,
+.MuiFormControl-root .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiFormControl-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #007bff;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.MuiFormControl-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #007bff;
+  border-width: 2px;
+}
+
+/* Button styles */
+.MuiButton-root {
+  border-radius: 8px;
+  text-transform: none;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.MuiButton-outlined {
+  border-width: 2px;
+}
+
+.MuiButton-outlined:hover {
+  border-width: 2px;
+  transform: translateY(-1px);
+}
+
+.MuiButton-contained {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.MuiButton-contained:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Snackbar styles */
+.MuiSnackbar-root {
+  z-index: 1400;
+}
+
+.MuiAlert-root {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Loading states */
+.MuiCircularProgress-root {
+  color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .users-management {
+    padding: 1rem;
+  }
+  
+  .users-paper {
+    padding: 1.5rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .users-management {
+    padding: 0.5rem;
+  }
+  
+  .users-paper {
+    padding: 1rem;
+  }
+  
+  .users-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .filters-section .MuiGrid-container {
+    gap: 1rem;
+  }
+  
+  .filters-section .MuiGrid-item {
+    width: 100%;
+  }
+  
+  .users-table {
+    font-size: 0.875rem;
+  }
+  
+  .users-table .MuiTableCell-root {
+    padding: 0.5rem;
+  }
+  
+  .users-table .MuiChip-root {
+    font-size: 0.75rem;
+  }
+  
+  .users-table .MuiIconButton-root {
+    padding: 0.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .users-management {
+    padding: 0.25rem;
+  }
+  
+  .users-paper {
+    padding: 0.75rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .users-table {
+    font-size: 0.8rem;
+  }
+  
+  .users-table .MuiTableCell-root {
+    padding: 0.25rem;
+  }
+}
+
+/* Animation for table rows */
+.users-table .MuiTableRow-root {
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Custom scrollbar for table */
+.users-table .MuiTableContainer-root {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.users-table .MuiTableContainer-root::-webkit-scrollbar {
+  width: 8px;
+}
+
+.users-table .MuiTableContainer-root::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.users-table .MuiTableContainer-root::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.users-table .MuiTableContainer-root::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Status chip animations */
+.users-table .MuiChip-root {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tooltip styles */
+.MuiTooltip-tooltip {
+  background: #2c3e50;
+  color: white;
+  font-size: 0.75rem;
+  border-radius: 4px;
+}
+
+/* Card hover effects */
+.stats-grid .MuiCard-root {
+  position: relative;
+  overflow: hidden;
+}
+
+.stats-grid .MuiCard-root::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.stats-grid .MuiCard-root:hover::before {
+  left: 100%;
+} 

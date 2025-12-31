@@ -1,0 +1,205 @@
+/* Inventory.css */
+
+.dealer-inventory-dashboard {
+  padding: 24px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.dealer-inventory-header {
+  margin-bottom: 24px;
+}
+
+.dealer-inventory-header h1 {
+  font-size: 28px;
+  color: #333;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+
+.dealer-inventory-welcome-message {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.dealer-inventory-stats {
+  margin-bottom: 24px;
+}
+
+.dealer-inventory-stats .MuiCard-root {
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dealer-inventory-stats .MuiCard-root:hover {
+  transform: translateY(-4px);
+}
+
+.dealer-inventory-stats .MuiCardContent-root {
+  padding: 16px;
+}
+
+.dealer-inventory-stats .MuiTypography-h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.dealer-inventory-filters {
+  margin-bottom: 24px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dealer-inventory-table-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.dealer-inventory-table-container .MuiTableHead-root {
+  background-color: #f8f9fa;
+}
+
+.dealer-inventory-table-container .MuiTableHead-root .MuiTableCell-root {
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #e0e0e0;
+  white-space: nowrap;
+}
+
+.dealer-inventory-table-container .MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: #f5f5f5;
+}
+
+.dealer-inventory-table-container .MuiTableCell-root {
+  padding: 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.dealer-inventory-table-container .MuiChip-root {
+  font-weight: 500;
+  min-width: 100px;
+}
+
+/* Dialog styles */
+.MuiDialog-paper {
+  border-radius: 12px !important;
+}
+
+.MuiDialogTitle-root {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 16px 24px !important;
+}
+
+.MuiDialogContent-root {
+  padding: 24px !important;
+}
+
+.MuiDialogActions-root {
+  padding: 16px 24px !important;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Status colors */
+.status-in-stock {
+  background-color: #4CAF50 !important;
+}
+
+.status-low-stock {
+  background-color: #FFA726 !important;
+}
+
+.status-out-of-stock {
+  background-color: #F44336 !important;
+}
+
+/* Requested Items Table Styles */
+.requested-items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.requested-items-table th, .requested-items-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 1rem;
+}
+.requested-items-table th {
+  background: #f7f7f7;
+  font-weight: 600;
+}
+.requested-items-table tr:last-child td {
+  border-bottom: none;
+}
+
+.requested-badge {
+  background: #FFA726;
+  color: #fff;
+  padding: 2px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  display: inline-block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 960px) {
+  .dealer-inventory-dashboard {
+    padding: 16px;
+  }
+
+  .dealer-inventory-header h1 {
+    font-size: 24px;
+  }
+
+  .dealer-inventory-table-container {
+    overflow-x: auto;
+  }
+
+  .dealer-inventory-table-container .MuiTableCell-root {
+    padding: 12px;
+    white-space: nowrap;
+  }
+
+  .dealer-inventory-filters .MuiBox-root {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .dealer-inventory-filters .MuiFormControl-root,
+  .dealer-inventory-filters .MuiTextField-root {
+    width: 100%;
+  }
+}
+
+/* Button styles */
+.MuiButton-contained {
+  text-transform: none !important;
+  font-weight: 500 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.MuiButton-contained:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Icon button styles */
+.MuiIconButton-root {
+  padding: 8px !important;
+  margin: 0 4px !important;
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+} 

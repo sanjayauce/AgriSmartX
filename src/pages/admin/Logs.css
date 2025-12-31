@@ -1,0 +1,573 @@
+/* Logs.css */
+
+.logs-dashboard {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.logs-header {
+  margin-bottom: 20px;
+}
+
+.logs-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.logs-welcome-message {
+  font-size: 16px;
+  color: #666;
+}
+
+.logs-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logs-activity {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logs-activity h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.logs-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logs-activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logs-activity-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.logs-activity-details small {
+  font-size: 12px;
+  color: #666;
+}
+
+/* Logs Management Page Styles */
+
+.logs-management {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logs-paper {
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logs-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.logs-header h1 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.stats-grid {
+  margin-bottom: 2rem;
+}
+
+.stats-grid .MuiCard-root {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.stats-grid .MuiCard-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.stats-grid .MuiCardContent-root {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.charts-section {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.charts-section .MuiGrid-item {
+  flex: 1 1 48%;
+  min-width: 350px;
+  max-width: 700px;
+  display: flex;
+}
+
+.charts-section .MuiCard-root {
+  width: 100%;
+  min-width: 350px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.charts-section .MuiCardContent-root {
+  padding: 2rem;
+  height: 100%;
+}
+
+.filters-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.logs-table {
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logs-table .MuiTableHead-root {
+  background: #f8f9fa;
+}
+
+.logs-table .MuiTableHead-root .MuiTableCell-root {
+  font-weight: 600;
+  color: #495057;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.logs-table .MuiTableBody-root .MuiTableRow-root:hover {
+  background: #f8f9fa;
+}
+
+.logs-table .MuiTableCell-root {
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.logs-table .MuiChip-root {
+  font-weight: 500;
+}
+
+/* Log level specific colors */
+.logs-table .MuiChip-colorPrimary {
+  background: #2196F3;
+}
+
+.logs-table .MuiChip-colorWarning {
+  background: #FF9800;
+  color: #fff;
+}
+
+.logs-table .MuiChip-colorError {
+  background: #F44336;
+}
+
+.logs-table .MuiChip-colorDefault {
+  background: #6c757d;
+}
+
+/* Accordion styles */
+.logs-table .MuiAccordion-root {
+  box-shadow: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.logs-table .MuiAccordionSummary-root {
+  min-height: 32px;
+  padding: 0 8px;
+}
+
+.logs-table .MuiAccordionSummary-content {
+  margin: 4px 0;
+}
+
+.logs-table .MuiAccordionDetails-root {
+  padding: 8px 16px;
+  background: #f8f9fa;
+}
+
+/* Progress bar styles */
+.MuiLinearProgress-root {
+  height: 8px;
+  border-radius: 4px;
+}
+
+.MuiLinearProgress-colorSuccess {
+  background-color: #e8f5e8;
+}
+
+.MuiLinearProgress-colorWarning {
+  background-color: #fff3e0;
+}
+
+.MuiLinearProgress-colorError {
+  background-color: #ffebee;
+}
+
+/* Chart container styles */
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #e0e0e0;
+  stroke-dasharray: 3 3;
+}
+
+.recharts-tooltip-wrapper {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.MuiButton-root {
+  border-radius: 8px;
+  text-transform: none;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.MuiButton-outlined {
+  border-width: 2px;
+}
+
+.MuiButton-outlined:hover {
+  border-width: 2px;
+  transform: translateY(-1px);
+}
+
+.MuiButton-contained {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.MuiButton-contained:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Form controls */
+.MuiTextField-root,
+.MuiFormControl-root {
+  margin-bottom: 1rem;
+}
+
+.MuiTextField-root .MuiInputLabel-root,
+.MuiFormControl-root .MuiInputLabel-root {
+  color: #6c757d;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root,
+.MuiFormControl-root .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline,
+.MuiFormControl-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #007bff;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.MuiFormControl-root .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #007bff;
+  border-width: 2px;
+}
+
+/* Pagination */
+.MuiTablePagination-root {
+  background: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+/* Snackbar styles */
+.MuiSnackbar-root {
+  z-index: 1400;
+}
+
+.MuiAlert-root {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Loading states */
+.MuiCircularProgress-root {
+  color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .logs-management {
+    padding: 1rem;
+  }
+  
+  .logs-paper {
+    padding: 1.5rem;
+  }
+  
+  .charts-section .MuiGrid-item {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .logs-management {
+    padding: 0.5rem;
+  }
+  
+  .logs-paper {
+    padding: 1rem;
+  }
+  
+  .logs-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .filters-section .MuiGrid-container {
+    gap: 1rem;
+  }
+  
+  .filters-section .MuiGrid-item {
+    width: 100%;
+  }
+  
+  .logs-table {
+    font-size: 0.875rem;
+  }
+  
+  .logs-table .MuiTableCell-root {
+    padding: 0.5rem;
+  }
+  
+  .logs-table .MuiChip-root {
+    font-size: 0.75rem;
+  }
+  
+  .charts-section .MuiCardContent-root {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logs-management {
+    padding: 0.25rem;
+  }
+  
+  .logs-paper {
+    padding: 0.75rem;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .logs-table {
+    font-size: 0.8rem;
+  }
+  
+  .logs-table .MuiTableCell-root {
+    padding: 0.25rem;
+  }
+  
+  .charts-section {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .charts-section {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .charts-section .MuiGrid-item {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .charts-section .MuiCard-root {
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+/* Animation for table rows */
+.logs-table .MuiTableRow-root {
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Custom scrollbar for table */
+.logs-table .MuiTableContainer-root {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.logs-table .MuiTableContainer-root::-webkit-scrollbar {
+  width: 8px;
+}
+
+.logs-table .MuiTableContainer-root::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.logs-table .MuiTableContainer-root::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+.logs-table .MuiTableContainer-root::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Status chip animations */
+.logs-table .MuiChip-root {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Chart animations */
+.recharts-line-curve {
+  animation: drawLine 1s ease-out;
+}
+
+@keyframes drawLine {
+  from {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Card hover effects */
+.stats-grid .MuiCard-root {
+  position: relative;
+  overflow: hidden;
+}
+
+.stats-grid .MuiCard-root::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.stats-grid .MuiCard-root:hover::before {
+  left: 100%;
+}
+
+/* Auto-refresh indicator */
+.auto-refresh-indicator {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: rgba(0, 123, 255, 0.9);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Export button special styling */
+.export-button {
+  background: linear-gradient(45deg, #28a745, #20c997);
+  color: white;
+  border: none;
+}
+
+.export-button:hover {
+  background: linear-gradient(45deg, #218838, #1ea085);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+/* Filter section enhancements */
+.filters-section {
+  position: relative;
+}
+
+.filters-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #007bff, #28a745, #ffc107, #dc3545);
+  border-radius: 8px 8px 0 0;
+}
+
+/* Chart tooltips */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  padding: 12px !important;
+}
+
+.recharts-tooltip-wrapper .recharts-tooltip-label {
+  color: #495057 !important;
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+}
+
+.recharts-tooltip-wrapper .recharts-tooltip-item {
+  color: #6c757d !important;
+  font-size: 0.875rem !important;
+} 

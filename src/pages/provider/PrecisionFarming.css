@@ -1,0 +1,65 @@
+.provider-precision-farming-dashboard {
+  background: #f8fafc;
+  min-height: 100vh;
+  padding: 32px 0;
+}
+
+.provider-precision-farming-header {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.provider-precision-farming-header h1 {
+  font-size: 2.5rem;
+  color: #1a3e72;
+  margin-bottom: 8px;
+}
+
+.provider-precision-farming-welcome-message {
+  color: #4b5563;
+  font-size: 1.1rem;
+}
+
+.provider-precision-farming-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.provider-precision-farming-overview {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 32px;
+}
+
+.provider-precision-farming-overview h2 {
+  color: #256029;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.provider-precision-farming-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.provider-precision-farming-activity-item {
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.provider-precision-farming-activity-details p {
+  margin: 0 0 8px 0;
+  color: #374151;
+}
+
+.provider-precision-farming-activity-details small {
+  color: #6b7280;
+} 

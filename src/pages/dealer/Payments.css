@@ -1,0 +1,184 @@
+/* Payments.css */
+
+.dealer-payments-dashboard {
+  padding: 24px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.dealer-payments-header {
+  margin-bottom: 24px;
+}
+
+.dealer-payments-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.dealer-payments-welcome-message {
+  color: #666;
+  margin: 8px 0 0;
+  font-size: 14px;
+}
+
+.dealer-payments-stats {
+  margin-bottom: 24px;
+}
+
+.dealer-payments-stats .MuiCard-root {
+  height: 100%;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.dealer-payments-stats .MuiCard-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dealer-payments-filters {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+}
+
+.dealer-payments-table-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.dealer-payments-table-container .MuiTableHead-root {
+  background-color: #f8f9fa;
+}
+
+.dealer-payments-table-container .MuiTableHead-root .MuiTableCell-root {
+  font-weight: 600;
+  color: #1a1a1a;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.dealer-payments-table-container .MuiTableBody-root .MuiTableRow-root:hover {
+  background-color: #f8f9fa;
+}
+
+.dealer-payments-table-container .MuiTableCell-root {
+  padding: 12px 16px;
+}
+
+/* Status Chip Colors */
+.dealer-payments-table-container .MuiChip-root {
+  font-weight: 500;
+  min-width: 80px;
+}
+
+/* Action Buttons */
+.dealer-payments-table-container .MuiIconButton-root {
+  padding: 4px;
+  margin: 0 2px;
+}
+
+.dealer-payments-table-container .MuiIconButton-root:hover {
+  background-color: #f0f0f0;
+}
+
+/* Dialog Styles */
+.dealer-payments-dashboard .MuiDialog-paper {
+  border-radius: 12px;
+}
+
+.dealer-payments-dashboard .MuiDialogTitle-root {
+  font-weight: 600;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.dealer-payments-dashboard .MuiDialogContent-root {
+  padding: 24px;
+}
+
+.dealer-payments-dashboard .MuiDialogActions-root {
+  padding: 16px 24px;
+  border-top: 1px solid #e0e0e0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 960px) {
+  .dealer-payments-dashboard {
+    padding: 16px;
+  }
+
+  .dealer-payments-filters .MuiBox-root {
+    flex-direction: column;
+  }
+
+  .dealer-payments-filters .MuiBox-root > * {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .dealer-payments-table-container {
+    overflow-x: auto;
+  }
+
+  .dealer-payments-table-container .MuiTable-root {
+    min-width: 800px;
+  }
+}
+
+/* Tab Styles */
+.dealer-payments-dashboard .MuiTabs-root {
+  margin-bottom: 24px;
+}
+
+.dealer-payments-dashboard .MuiTab-root {
+  text-transform: none;
+  font-weight: 500;
+  min-width: 120px;
+}
+
+.dealer-payments-dashboard .MuiTab-root.Mui-selected {
+  color: #1976d2;
+}
+
+/* Button Styles */
+.dealer-payments-dashboard .MuiButton-root {
+  text-transform: none;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.dealer-payments-dashboard .MuiButton-contained {
+  box-shadow: none;
+}
+
+.dealer-payments-dashboard .MuiButton-contained:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Field Styles */
+.dealer-payments-dashboard .MuiTextField-root,
+.dealer-payments-dashboard .MuiFormControl-root {
+  margin-bottom: 8px;
+}
+
+.dealer-payments-dashboard .MuiInputLabel-root {
+  font-size: 14px;
+}
+
+.dealer-payments-dashboard .MuiOutlinedInput-root {
+  border-radius: 8px;
+}
+
+/* Amount Colors */
+.dealer-payments-table-container .amount-received {
+  color: #4CAF50;
+}
+
+.dealer-payments-table-container .amount-sent {
+  color: #F44336;
+} 
