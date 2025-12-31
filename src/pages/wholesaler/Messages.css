@@ -1,0 +1,62 @@
+/* Messages.css */
+
+.wholesaler-messages-dashboard {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.wholesaler-messages-header {
+  margin-bottom: 20px;
+}
+
+.wholesaler-messages-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.wholesaler-messages-welcome-message {
+  font-size: 16px;
+  color: #666;
+}
+
+.wholesaler-messages-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wholesaler-messages-activity {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.wholesaler-messages-activity h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.wholesaler-messages-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wholesaler-messages-activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wholesaler-messages-activity-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.wholesaler-messages-activity-details small {
+  font-size: 12px;
+  color: #666;
+} 

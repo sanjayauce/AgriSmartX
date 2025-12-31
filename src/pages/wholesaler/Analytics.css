@@ -1,0 +1,590 @@
+/* Analytics.css */
+
+.wholesaler-analytics {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+.analytics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.header-content h1 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.8rem;
+}
+
+.analytics-welcome-message {
+  margin: 0.5rem 0 0;
+  color: #666;
+}
+
+.header-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.filter-select {
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  background-color: white;
+  min-width: 150px;
+  font-size: 0.9rem;
+}
+
+.primary-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #43A047;
+}
+
+/* Metrics Grid */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.metric-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.metric-icon {
+  font-size: 1.5rem;
+  color: #4CAF50;
+  background: #E8F5E9;
+  padding: 0.75rem;
+  border-radius: 8px;
+}
+
+.metric-content {
+  flex: 1;
+}
+
+.metric-content h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.metric-value {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.metric-trend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.trend {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.trend.up {
+  color: #4CAF50;
+}
+
+.trend.down {
+  color: #F44336;
+}
+
+.trend-icon {
+  font-size: 0.8rem;
+}
+
+.sub-label {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Analytics Grid */
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+/* Analytics Cards */
+.analytics-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #e9ecef;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+/* Sales Analytics */
+.sales-overview {
+  margin-bottom: 1.5rem;
+}
+
+.overview-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.overview-stat .label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.overview-stat .value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.overview-stat .value.warning {
+  color: #FFA726;
+}
+
+.overview-stat .value.success {
+  color: #4CAF50;
+}
+
+.sales-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.top-products h3,
+.sales-categories h3 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.product-row {
+  margin-bottom: 1rem;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.product-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.product-sales {
+  color: #666;
+}
+
+.progress-bar {
+  height: 6px;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  margin-bottom: 0.25rem;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.product-trend {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.category-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  height: 200px;
+  padding-top: 1rem;
+}
+
+.category-bar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bar {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  transition: height 0.3s ease;
+}
+
+.category-name {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Inventory Analytics */
+.inventory-overview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.inventory-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.category-row,
+.health-row {
+  margin-bottom: 1rem;
+}
+
+.category-info,
+.health-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.category-name,
+.health-status {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.category-value,
+.health-count {
+  color: #666;
+}
+
+.item-count,
+.health-percentage {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Customer Analytics */
+.customer-overview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.customer-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.customer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.customer-row:last-child {
+  border-bottom: none;
+}
+
+.customer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.customer-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.customer-value {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.order-count {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.segment-row {
+  margin-bottom: 1rem;
+}
+
+.segment-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.segment-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.segment-count {
+  color: #666;
+}
+
+.segment-percentage {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Market Trends */
+.price-trends,
+.demand-trends {
+  margin-bottom: 1.5rem;
+}
+
+.price-trends h3,
+.demand-trends h3 {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.trend-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.trend-row:last-child {
+  border-bottom: none;
+}
+
+.trend-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.product-name,
+.category-name {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.current-price {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.price-change {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.price-change.up {
+  color: #4CAF50;
+}
+
+.price-change.down {
+  color: #F44336;
+}
+
+.demand-level {
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.demand-level.high {
+  background-color: #E8F5E9;
+  color: #4CAF50;
+}
+
+.demand-level.medium {
+  background-color: #FFF3E0;
+  color: #FFA726;
+}
+
+.demand-level.low {
+  background-color: #FFEBEE;
+  color: #F44336;
+}
+
+.demand-change {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  color: #4CAF50;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sales-details,
+  .inventory-details,
+  .customer-details {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .wholesaler-analytics {
+    padding: 1rem;
+  }
+
+  .analytics-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .header-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .filter-group {
+    width: 100%;
+  }
+
+  .filter-select {
+    flex: 1;
+  }
+
+  .primary-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .inventory-overview,
+  .customer-overview {
+    grid-template-columns: 1fr;
+  }
+
+  .category-chart {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .metric-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .metric-trend {
+    justify-content: center;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .card-actions {
+    width: 100%;
+  }
+
+  .action-btn {
+    flex: 1;
+    justify-content: center;
+  }
+} 

@@ -1,0 +1,62 @@
+/* Messages.css */
+
+.retailer-messages-dashboard {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.retailer-messages-header {
+  margin-bottom: 20px;
+}
+
+.retailer-messages-header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.retailer-messages-welcome-message {
+  font-size: 16px;
+  color: #666;
+}
+
+.retailer-messages-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.retailer-messages-activity {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.retailer-messages-activity h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.retailer-messages-activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.retailer-messages-activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.retailer-messages-activity-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.retailer-messages-activity-details small {
+  font-size: 12px;
+  color: #666;
+} 
