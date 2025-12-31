@@ -1,0 +1,129 @@
+.filter-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin-bottom: 2rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.filter-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.filter-group {
+  flex: 1;
+  min-width: 180px;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.filter-group select {
+  width: 100%;
+  padding: 0.75em;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  background-color: white;
+  font-size: 1rem;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.filter-group select:hover {
+  border-color: var(--primary-green);
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: var(--primary-green);
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.apply-button {
+  padding: 0.75em 1.5em;
+  background-color: var(--primary-green);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: auto;
+  min-width: 120px;
+  height: 45px;
+}
+
+.apply-button:hover {
+  background-color: var(--secondary-green);
+}
+
+.apply-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 1024px) {
+  .filter-section {
+    font-size: 0.95rem;
+    padding: 1.2rem;
+  }
+  .filter-group {
+    min-width: 160px;
+  }
+  .filter-group label, .filter-group select, .apply-button {
+    font-size: 0.95rem;
+  }
+  .apply-button {
+    padding: 0.7em 1.2em;
+    min-width: 100px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .filter-section {
+    font-size: 0.92rem;
+    padding: 1rem;
+  }
+  .filter-group {
+    min-width: 140px;
+  }
+  .filter-group label, .filter-group select, .apply-button {
+    font-size: 0.9rem;
+  }
+  .apply-button {
+    padding: 0.6em 1em;
+    min-width: 90px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .filter-section {
+    font-size: 0.88rem;
+    padding: 0.5rem;
+  }
+  .filter-group {
+    min-width: 120px;
+  }
+  .filter-group label, .filter-group select, .apply-button {
+    font-size: 0.85rem;
+  }
+  .apply-button {
+    padding: 0.5em 0.8em;
+    min-width: 80px;
+    height: 36px;
+  }
+} 

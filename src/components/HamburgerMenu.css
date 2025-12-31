@@ -1,0 +1,45 @@
+.hamburger-menu {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1100;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hamburger-menu.open {
+  background: #d32f2f;
+}
+
+.hamburger-menu.open:hover {
+  background: #b71c1c;
+}
+
+/* Show hamburger menu on screens smaller than 1051px */
+@media (max-width: 1050px) {
+  .hamburger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Hide hamburger menu on larger screens */
+@media (min-width: 1051px) {
+  .hamburger-menu {
+    display: none !important;
+  }
+} 
